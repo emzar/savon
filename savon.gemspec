@@ -17,10 +17,10 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   # TODO: get rid of Nori.
-  s.add_dependency 'nori',     '~> 2.2.0'
+  s.add_runtime_dependency 'nori', '~> 2.6', '>= 2.6.0'
 
-  s.add_dependency 'nokogiri',   '>= 1.4.0'
-  s.add_dependency 'builder',    '>= 3.0.0'
+  s.add_runtime_dependency 'nokogiri', '~> 1.4', '>= 1.4.0'
+  s.add_runtime_dependency 'builder', '~> 3.0', '>= 3.0.0'
   s.add_dependency 'httpclient', '~> 2.3'
   s.add_dependency 'logging',    '~> 1.8'
 
